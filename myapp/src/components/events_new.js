@@ -29,7 +29,8 @@ class EventsNew extends Component {
             <form onSubmit={handleSubmit(this.onSubmit)}>
                 <div>
                 <Field label="Title" name="title" type="text" component={this.renderField} />
-                </div><div>
+                </div>
+                <div>
                 <Field label="Body" name="body" type="text" component={this.renderField} />
                 </div>
                 <div><input type="submit" values="Submit" disabled={pristine || submitting} /></div>
